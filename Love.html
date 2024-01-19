@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    button {
+ font-size: 1em;
+ padding: 10px;
+ color: #330f0f;
+ border: none;
+ cursor: pointer;
+}
+
+button:hover {
+ animation: colorchange 1s infinite;
+}
+
+@keyframes colorchange {
+  0% { background-color: red; }
+  25% { background-color: orange; }
+  50% { background-color: yellow; }
+  75% { background-color: green; }
+  100% { background-color: blue; }
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This will center the button vertically within the viewport */
+}
+
+</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClickMe</title>
+</head>
+<body>
+  <a href="img.html">
+    <div style="text-align: center;">
+      <button class="btn-img" style="width: 150px; height: 120px;">
+        <img src="WhatsApp Image 2024-01-13 at 20.34.58_d9f2f8ff.jpg" alt="Image" style="width: 100px; height: 80px;"> Click me
+      </button>
+    </div>
+</body>
+</html>
